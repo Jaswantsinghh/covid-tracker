@@ -1,0 +1,30 @@
+{
+  "name": "covid-tracker",
+  "version": "1.0.0",
+  "description": "A wab app showing covid data country wise",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaswantsinghh/covid-tracker.git"
+  },
+  "keywords": [
+    "covid",
+    "corona",
+    "tracker"
+  ],
+  "author": "Jaswant Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaswantsinghh/covid-tracker/issues"
+  },
+  "homepage": "https://github.com/jaswantsinghh/covid-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemon": "^2.0.7",
+    "novelcovid": "^3.0.0"
+  }
+}
